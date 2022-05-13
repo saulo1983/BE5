@@ -4,5 +4,5 @@
 using BE5.Classes;
 
 PessoaFisica novaPf = new PessoaFisica();
-novaPf.nome = "Lozano";
-Console.WriteLine(novaPf.nome);
+// novaPf.ValidarDataNascimento(new DateTime(2000,01,01));
+novaPf.ValidarDataNascimento("01012000");
