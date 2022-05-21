@@ -6,7 +6,7 @@ namespace BE5.Classes
     {
         public string ?cpf { get; set; }
         
-        public DateTime ?dataNascimento { get; set; }
+        public string ?dataNascimento { get; set; }
         
          public override float PagarImposto(float rendimento)
         {
