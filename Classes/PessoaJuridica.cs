@@ -7,7 +7,7 @@ namespace BE5.Classes
     {
         public string ?cnpj { get; set; }
 
-        public string ?razao { get; set; } 
+        public string ?razaoSocial { get; set; } 
         
         public override float PagarImposto(float rendimento)
         {
