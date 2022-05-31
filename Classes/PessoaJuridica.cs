@@ -11,8 +11,24 @@ namespace BE5.Classes
         
         public override float PagarImposto(float rendimento)
         {
-            throw new NotImplementedException();
+            if (rendimento <= 3500)
+            {
+              return rendimento * 0.03f;  
+            }
+            else if (rendimento > 1500 && rendimento <= 3500)
+            {
+                return rendimento * 0.05f;    
+            }
+            else if (rendimento > 3500 && rendimento <= 6000)
+            {
+                return rendimento * 0.07f;
+            }
+            else
+            {
+                return rendimento * 0.09f;
+            }
         }
+
 
         // XX.XXX.XXX/0001-XX
         //   XXXXXXXX0001XX
